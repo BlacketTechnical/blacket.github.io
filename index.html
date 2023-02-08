@@ -1,16 +1,39 @@
 <!DOCTYPE html>
-    <head>
-        <title>Blacket Welcome</title>
-    </head>
-    <body>
-        <header><!--Probably a navbar--></header>
+<html>
+<head>
+<style>
+#grad1 {
+  height: 500px;
+  background-color: white; /* For browsers that do not support gradients */
+  background-image: linear-gradient(#358a3b, #fefefe);
+}
+#landingTitle {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  color:white;
+}
+#landingMessage {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color:white;
+}
+</style>
+</head>
+<body>
+<div id="grad1">
+<header><!--Probably a navbar--></header>
         <section id="main">
             <h1>Welcome to Blacket!</h1>
+            <h1 id = landingTitle>Blacket</h1>
+            <p id = landingMessage>Welcome to the future of supporting Black Businesses!</p>
             <!--Probably pics, short blurb, etc-->
         </section>
         <section id="signup">
             <!--Whatever form thing we do for signing up-->
         </section>
         <footer>&copy 2023 Blacket</footer>
-    </body>
+
+</div>
+
+</body>
 </html>
